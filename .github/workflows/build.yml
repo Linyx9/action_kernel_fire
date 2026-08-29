@@ -154,3 +154,4 @@ jobs:
       with:
         name: dtbo-${{ env.DEVICE }}-${{ env.BUILD_TIME }}
         path: kernel_workspace/android-kernel/out/arch/${{ env.KERNEL_ARCH }}/boot/dtbo.img
+# trigger reindex
